@@ -18,7 +18,10 @@ $P_k^p$ 是一个向量，由玩家 $p$ 所打出的局面的4个顺位的可能
 
 $\Phi_k$ 是pt期望，在游戏中的一局 $k$ 开始时进行估计。
 
-$\hat Q^\pi(s_k^i, a_k^i)$ 是在第 $k$ 局第 $i$ 个状态以 $\pi$ 为模型方针代表而算得的[Q 值](https://en.wikipedia.org/wiki/Q-learning)。
+$\hat Q^\pi(s_k^i, a_k^i)$ 是在第 $k$ 
+局第 $i$ 
+个状态以 $\pi$ 
+为模型方针代表而算得的[Q值](https://en.wikipedia.org/wiki/Q-learning)。
 
 Mortal的Q值优化目标是 $\Phi_{k+1} - \Phi_k$ ，
 所以理论上 $\hat Q^\pi(s_k^i, a_k^i) + \Phi_k$ 就是对pt期望的一个估计。
